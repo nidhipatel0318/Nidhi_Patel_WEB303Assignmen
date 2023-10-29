@@ -1,0 +1,104 @@
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header */
+header {
+    background-color: #303030;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style for accordion and tabs */
+.accordion, .tabs {
+    background-color: #f2f2f2;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+/* Accordion styles */
+.accordion li {
+    padding: 0;
+    list-style-type: none;
+}
+
+.accordion-control {
+    background-color: #303030;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    margin: 0;
+    border-top: 1px solid #666;
+    cursor: pointer;
+}
+
+.accordion-panel {
+    display: none;
+    padding: 10px;
+}
+
+/* Tab styles */
+.tab-list {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-list li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #303030;
+    border-bottom: 3px solid #858585;
+    font-family: 'Jacques Francois', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.tab-list li a {
+    color: #f2f2f2;
+    display: block;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab-list li.active, .tab-list li:hover {
+    background-color: #e5e5e5;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+.tab-list li.active a, .tab-list li a:hover {
+    color: #666;
+    background-color: #e5e5e5;
+}
+
+.tab-panel {
+    display: none;
+    background-color: #e5e5e5;
+    color: #666;
+    min-height: 150px;
+    padding: 20px;
+}
+
+.tab-panel.active {
+    display: block;
+}
+/* Image container styles */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Image styles */
+.image-container img {
+    max-width: 100%;
+    max-height: 200px;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
