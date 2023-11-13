@@ -1,0 +1,65 @@
+[
+    {
+        "firstName": "Tony",
+        "lastName": "Stark",
+        "alias": "Iron Man",
+        "age": 45,
+        "team": "The Avengers",
+        "occupation": "CEO of Stark Industries",
+        "description": "Genius, billionaire, playboy, philanthropist"
+    },
+    {
+        "firstName": "Steve",
+        "lastName": "Rogers",
+        "alias": "Captain America",
+        "age": 100,
+        "team": "The Avengers",
+        "occupation": "Super Soldier",
+        "description": "Patriotic supersoldier"
+    },
+    {
+        "firstName": "Natasha",
+        "lastName": "Romanoff",
+        "alias": "Black Widow",
+        "age": 35,
+        "team": "The Avengers",
+        "occupation": "Spy, Assassin",
+        "description": "Master spy and assassin"
+    },
+    {
+        "firstName": "Bruce",
+        "lastName": "Banner",
+        "alias": "Hulk",
+        "age": 45,
+        "team": "The Avengers",
+        "occupation": "Scientist",
+        "description": "Brilliant scientist with a rage alter-ego"
+    },
+    {
+        "firstName": "Thor",
+        "lastName": "Odinson",
+        "alias": "Thor",
+        "age": 1500,
+        "team": "The Avengers",
+        "occupation": "God of Thunder",
+        "description": "Norse God wielding Mjolnir"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Parker",
+        "alias": "Spider-Man",
+        "age": 20,
+        "team": "Web Warriors",
+        "occupation": "Photographer",
+        "description": "Friendly neighborhood web-slinger"
+    },
+    {
+        "firstName": "Scott",
+        "lastName": "Lang",
+        "alias": "Ant-Man",
+        "age": 40,
+        "team": "The Avengers",
+        "occupation": "Thief, Superhero",
+        "description": "Size-changing superhero"
+    }
+]
