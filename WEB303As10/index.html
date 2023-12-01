@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password (min 12 characters):</label>
+        <input type="password" id="password" name="password" required minlength="12">
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required minlength="12">
+
+        <label>
+            <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+            I accept the terms of service
+        </label>
+
+        <label for="countrySelect">Select your country:</label>
+        <select id="countrySelect" name="countrySelect" required>
+            <option value="" disabled selected>Select your country</option>
+        </select>
+
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+</body>
+
+</html>
